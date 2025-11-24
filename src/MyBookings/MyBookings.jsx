@@ -74,7 +74,6 @@ export default function MyBookings() {
               width={{ xs: 1, md: "calc(100% - 384px)" }}
               mr="24px"
             >
-                
               {filteredBookings.length > 0 &&
                 filteredBookings.map((restaurant) => (
                   <RestaurantCard
